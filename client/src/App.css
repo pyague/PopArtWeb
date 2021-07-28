@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#productosscroll{
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.card{
+  margin: 1rem;
+  padding: 2rem;
+
+}
+.p-5 {
+  padding: 3rem!important;
+}
+
+#artistas{
+  color: #70D2A4;
+  font-weight: 400;
+}
+#infoparrafos{
+  background-color: #d7ffdd;
+  width: 325px;
+  height: 325px;
+  align-items: center;
+  justify-content: center;
+}
+
+#boton{
+  background-color: #70D2A4;
+  border-color:#70D2A4;
+}
+
+#botonnav{
+  background-color: #70D2A4;
+  color:white;
+  font-weight: 400;
+  border:none;
+  padding: 7px;
+}
+.form{
+  border-color: #70D2A4;
+  border: 3px;
+}
+
+.navbar{
+  background-color: white;
+  color:#70D2A4;
+  font-weight: 800;
+}
+
+#textnav{
+  color:#70D2A4;
+}
+
+#imgborder{
+  border-color: #70D2A4;
+  border:5px ;
+}
+#search{
+  width: 550px;
+  height: 45px;
+  border-radius: 10px;
+  border-color: #70D2A4;
+  
+}
+
+#jumbotron{
+  background-color: hsl(152, 70%, 82%);
+}
+
+#jumbotronmain{
+  background-color:rgb(236, 234, 234);
+} 
+
+#jumbotron1{
+  background-color: #c5ecd9;
+}
+
+#informacion{
+  width: auto; height: 300px; border-radius: 21px 21px 0 0;
+}
+
+#footer{
+  background-color: #70D2A4;
+}
